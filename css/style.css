@@ -55,14 +55,14 @@ main{
     background-color: rgba(255, 255, 255, 0);
     border: none;
     font-size: 1.2rem;
-    color: purple;
+    color: rgb(130, 10, 209);
     font: bold;
 }
 
 .sec-1{
     width: 100%;
     height: 980px;
-    background-Image: url('/img/secimg1.jpg');
+    background: url('/img/secimg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -136,4 +136,50 @@ input{
     font-size: 1.3rem;
     padding-left: 1.5rem;
     color: #ccc;
+}
+
+
+.sec-2{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+.apresentacao-sec-2{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5rem;;
+}
+
+.apresentacao-sec-2 a{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: rgb(130, 10, 209);
+}
+
+.apresentacao-sec-2 h1{
+    color: rgb(130, 10, 209);
+}
+
+.apresentacao-sec-2 p{
+    font-size: 3rem;
+    color: #000;
+}
+
+.apresentacao-sec-2 img{
+    width: 550px;
+    height: 550px;
+}
+
+
+@media screen and (max-width: 800){
+    .sec-2{
+        flex-wrap: wrap;
+    }
 }
